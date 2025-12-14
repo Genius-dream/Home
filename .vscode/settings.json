@@ -1,5 +1,10 @@
 {
+    
+    "C_Cpp.default.compilerPath": "clang",
+    "C_Cpp.default.compilerArgs": ["-std=c23"],
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c23",
     "files.associations": {
-        "positive_decomposition": "c"
+        "*.c": "c"
     }
 }

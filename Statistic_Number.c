@@ -5,7 +5,7 @@ int main(void){
     int count[number] = {0};//10个元素，如count[1]记录1出现的次数
     int i;
     // for(i=0;i <number;i++){
-    //     count[i]=0;//初始化第i个元素为0，确保计数从零开始，避免垃圾值
+    //    count[i]=0;//初始化第i个元素为0，确保计数从零开始，避免垃圾值
     // }
 
     scanf("%d",&x);
