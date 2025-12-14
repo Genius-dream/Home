@@ -1,0 +1,42 @@
+# C/C++ 编译文件
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+
+# 调试文件
+*.pdb
+*.idb
+*.ilk
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.cbp
+*.dev
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*~
+*.swp
+*.swo
+
+# 日志文件
+*.log
+
+# 编译目录
+build/
+Debug/
+Release/
+bin/
+obj/
