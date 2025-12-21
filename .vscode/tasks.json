@@ -1,19 +1,18 @@
 {
+    "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: gcc.exe 生成活动文件",
-            "command": "C:/msys64/mingw64/bin/gcc.exe",
+            "type": "shell",
+            "label": "C/C++: gcc.exe build active file",
+            "command": "gcc",
             "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "-std=c23",
+                "-g", // 关键！生成调试信息，没有它无法调试[5](@ref)
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "C:/msys64/mingw64/bin"
+                "cwd": "${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"
@@ -22,8 +21,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "调试器生成的任务。"
+            "detail": "编译器: gcc"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
